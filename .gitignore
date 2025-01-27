@@ -1,0 +1,62 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Binary folder
+bin/
+dist/
+
+# Go specific
+*.o
+*.a
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+*.env
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# Temporary files
+tmp/
+temp/
+
+# Redis dump file
+dump.rdb
+
+# PostgreSQL data
+postgres-data/
+
+# Log files
+*.log
+logs/
+
+# Docker volumes
+docker/data/
+docker/volumes/
+
+# Air live reload
+tmp/
+
+# Coverage reports
+coverage.txt
+coverage.html
+
+# Debug files
+__debug_bin 
